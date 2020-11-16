@@ -1,0 +1,170 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit; 
+    margin: 0;
+}
+
+.multicolor {
+    background-image: linear-gradient(to left, #080e69, grey, red, grey, #080e69);
+    /*-webkit-background-clip: text;
+    -moz-background-clip: text;*/
+    color:transparent;
+}
+  
+a:focus {
+      
+    margin: 0;
+}
+
+header .site-title {
+    /*background-color: #080e69;*/
+    background-image: linear-gradient(to left, purple, orange, orange);
+    color: purple;
+    padding: 15px;
+    padding-left: 40px;
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header .navbar {
+    text-align: left;
+    width: 100%;
+    background-color: #690864;
+    color: black;
+    margin: 0;
+    font-size: 36px;
+    
+}
+
+  
+header .navbar a {
+    margin: 0;
+
+}
+  
+header .navlist {
+    padding-left: 30px;
+}
+  
+header .navitem {
+    
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+header .navitem:hover {
+    background-color: orange;
+    color: rgb(216, 216, 216);
+    
+}
+
+.page-title{
+    margin: 15px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 36px;
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+}
+
+.page-body{
+    margin: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    /*border: 2px solid black;*/
+    
+}
+
+
+
+.page-wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-box {
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid purple;
+}
+
+.page-body-search {
+    /*width: 100%;*/
+    border: 3px solid navy;
+    height: 20px;
+    border-right: none;
+    padding: 5px;
+    outline: none;
+    color: green;
+}
+.page-body-search:focus {
+    color: purple;
+}
+.page-body-searchbutton {
+    width: 40px;
+    height: 36px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background: gray;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}/*
+<button type="submit" class="page-body-searchbutton">
+<i class="">go!</i>
+</button>
+*/
+.searchplz{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addnew{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.updateBut{
+    align-self: center;
+    border-width: 2px;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+}
+.removeBut{
+    align-self: center;
+    border-width: 2px;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+}
+  
